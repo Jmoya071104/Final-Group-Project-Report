@@ -89,6 +89,7 @@ public:
   Due to the large amount of data that this application handles, the most efficient way to store it was to use multiple arrays. An array of players was implemented to keep track of each team's lineup. Furthermore, arrays were also used with buttons and labels to edit the details of each component quickly.
 
 2.2 Framework used.
+
   The entirety of this project was created using WinForms for both its GUI and C++ components. WinForms was used because it allowed for the best blend between GUI and C++; additionally, due to its straightforward implementation, it was very accessible to every member of the group, which promoted a collaborative atmosphere.
 
 
@@ -109,6 +110,7 @@ Once the code was more understandable, debugging became much simpler as we no lo
 
 Another problem we faced was the time-consuming process of manually drawing each button and label onto the page. To solve this, we decided to dynamically create the page components at runtime by utilizing arrays. For example, in the "TeamSelectPage", there are a total of 30 buttons, which would have taken hundreds of lines of code to write if we decided to do this manually; however, through the use of a 2d array, a loop was able to quickly draw each button in its corresponding position in a fraction of the time. Furthermore, since the loop consisted of only 20 lines, it was much easier to understand.
 
+```
 for (int row = 0; row < 5; row++) {
 	for (int column = 0; column < 6; column++) {
 		buttons[row,column]->Location = Point(Hspacing * (column+1) + column * btnLenght , fromTop + row*Vspacing + row*btnHeight);
@@ -128,6 +130,6 @@ for (int row = 0; row < 5; row++) {
 		Controls->Add(buttons[row, column]);
 	}
 }
-
+```
 4.2 Future Improvements
 A significant limitation of this application is that it is only capable of displaying player stats for the starting lineups of each team, meaning that for every team, there are ten players whose stats are not available. In the future, we will be able to showcase every player's stats.
