@@ -24,7 +24,7 @@ This project used a variety of object-oriented and C++ concepts.
   The final version of this project included four different classes, each containing its own
   unique attributes and methods.
     -Example Code:
-    
+```    
 class Players {
 public:
     std::string name;
@@ -49,7 +49,7 @@ public:
         return name;
     }
 };
-
+```
 
 -Encapsulation:
   The concept of encapsulation was demonstrated multiple times throughout the project through the use of access specifiers, such as public, private, and protected.
