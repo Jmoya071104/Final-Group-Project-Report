@@ -1,5 +1,6 @@
 Project Report: NBA Team and Players Stat Tracker
 1. Overview
+   
 1.1 Background Information
 
 This project was created to display our understanding of various C++ object-oriented concepts.
