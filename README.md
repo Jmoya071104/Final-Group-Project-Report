@@ -9,6 +9,7 @@ This application is designed to provide a quick and efficient way to organize an
 Our project uses accurate information (gathered from the NBA's own site) and displays it in a simple yet effective manner that allows even beginners in the sport to stay updated on the league's best teams and players.
 
 2. Technical Details
+
 2.1 Object-Oriented Programming Concepts Used
 
 This project used a variety of object-oriented and C++ concepts.
