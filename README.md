@@ -62,7 +62,8 @@ public:
 -Polymorphism:
   The "Team" class, as presented in the code, includes a purely virtual function; therefore, it is necessary to use function overriding in its derived classes. This allowed for a more dynamic use of pointers, as it enabled the proper function to be used depending on the object being used.
   
-    -Example code:
+    Example code:
+```
     class Team {
 public:
     std::string name;
@@ -79,6 +80,7 @@ public:
 
     virtual int ConferenceRanking() = 0;
 };
+```
 
 -Abstraction:
   As stated above, one of our classes contained a purely virtual function, meaning that it automatically forced itself to be an abstract class, making it useful as a template for its subclasses.
